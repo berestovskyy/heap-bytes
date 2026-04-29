@@ -1,0 +1,30 @@
+[package]
+authors.workspace = true
+categories.workspace = true
+description.workspace = true
+documentation = "https://docs.rs/size"
+edition.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+license.workspace = true
+name = "size"
+readme = "README.md"
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[lib]
+
+# [dependencies]
+# size-derive = { workspace = true, optional = true }
+
+[dev-dependencies]
+# size-derive.workspace = true
+# rstest.workspace = true
+# rustversion.workspace = true
+# serde.workspace = true
+# trybuild.workspace = true
+
+# [features]
+# default = ["derive"]
+# derive = ["dep:size-derive"]

@@ -1,0 +1,33 @@
+[workspace]
+members = ["size"]
+resolver = "2"
+
+[workspace.package]
+authors = ["Andriy Berestovskyy <berestovskyy@gmail.com>"]
+categories = [
+    "algorithms",
+    "data-structures",
+    "development-tools",
+    "development-tools::procedural-macro-helpers",
+    "memory-management",
+]
+description = "Size library."
+edition = "2024"
+homepage = "https://github.com/berestovskyy/size/releases"
+keywords = ["size", "derive", "memory", "heap", "stack"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/berestovskyy/size"
+rust-version = "1.86.0"
+version = "0.1.0-beta.1"
+
+[workspace.dependencies]
+# size-derive = { version = "0.1.0", path = "size-derive" }
+# proc-macro2 = "1.0.106"
+# quote = "1.0.45"
+# rstest = "0.26.1"
+# rustversion = "1.0.22"
+# serde = { version = "1.0.228", features = ["derive"] }
+# # To debug macro parsing:
+# #syn = { version = "2.0.117", features = ["extra-traits", "full"] }
+# syn = "2.0.117"
+# trybuild = "1.0.116"
