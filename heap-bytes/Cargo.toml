@@ -2,12 +2,12 @@
 authors.workspace = true
 categories.workspace = true
 description.workspace = true
-documentation = "https://docs.rs/size"
+documentation = "https://docs.rs/heap-bytes"
 edition.workspace = true
 homepage.workspace = true
 keywords.workspace = true
 license.workspace = true
-name = "size"
+name = "heap-bytes"
 readme = "README.md"
 repository.workspace = true
 rust-version.workspace = true
@@ -16,10 +16,10 @@ version.workspace = true
 [lib]
 
 # [dependencies]
-# size-derive = { workspace = true, optional = true }
+# heap-bytes-derive = { workspace = true, optional = true }
 
 [dev-dependencies]
-# size-derive.workspace = true
+# heap-bytes-derive.workspace = true
 # rstest.workspace = true
 # rustversion.workspace = true
 # serde.workspace = true
@@ -27,4 +27,4 @@ version.workspace = true
 
 # [features]
 # default = ["derive"]
-# derive = ["dep:size-derive"]
+# derive = ["dep:heap-bytes-derive"]

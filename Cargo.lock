@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "size"
-version = "0.1.0-beta.1"
+name = "heap-bytes"
+version = "0.1.0-beta.0"

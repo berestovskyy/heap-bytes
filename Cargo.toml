@@ -1,5 +1,5 @@
 [workspace]
-members = ["size"]
+members = ["heap-bytes"]
 resolver = "2"
 
 [workspace.package]
@@ -11,17 +11,17 @@ categories = [
     "development-tools::procedural-macro-helpers",
     "memory-management",
 ]
-description = "Size library."
+description = "Lightweight size calculation for Rust data structures."
 edition = "2024"
-homepage = "https://github.com/berestovskyy/size/releases"
+homepage = "https://github.com/berestovskyy/heap-bytes/releases"
 keywords = ["size", "derive", "memory", "heap", "stack"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/berestovskyy/size"
+repository = "https://github.com/berestovskyy/heap-bytes"
 rust-version = "1.86.0"
-version = "0.1.0-beta.1"
+version = "0.1.0-beta.0"
 
 [workspace.dependencies]
-# size-derive = { version = "0.1.0", path = "size-derive" }
+# heap-bytes-derive = { version = "0.1.0", path = "heap-bytes-derive" }
 # proc-macro2 = "1.0.106"
 # quote = "1.0.45"
 # rstest = "0.26.1"
