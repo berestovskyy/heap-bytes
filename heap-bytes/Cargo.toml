@@ -15,7 +15,8 @@ version.workspace = true
 
 [lib]
 
-# [dependencies]
+[dependencies]
+newtype-tools.workspace = true
 # heap-bytes-derive = { workspace = true, optional = true }
 
 [dev-dependencies]
